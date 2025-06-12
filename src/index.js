@@ -65,7 +65,7 @@ fs.writeFileSync(
   path.join(__dirname, "assets", "result.json"),
   JSON.stringify(finalJson, null, 2)
 );
-console.log("✅ Data successfully written to result.json");
+console.log("Data successfully written to result.json");
 
 axios
   .post(
@@ -73,8 +73,8 @@ axios
     finalJson
   )
   .then((res) => {
-    console.log("✅ Success:", res.data);
+    console.log("Success:", res.data);
   })
   .catch((err) => {
-    console.error("❌ Failed:", err.response?.status, err.response?.data);
+    console.error("Failed:", err.response?.status, err.response?.data);
   });
