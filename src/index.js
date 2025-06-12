@@ -59,13 +59,11 @@ rows.forEach((row) => {
   panel.parameters.push(parameter);
 });
 
-console.log("customerMap", customerMap.toString());
 const finalJson = Array.from(customerMap.values());
 fs.writeFileSync(
   path.join(__dirname, "assets", "result.json"),
   JSON.stringify(finalJson, null, 2)
 );
-console.log("Data successfully written to result.json");
 
 axios
   .post(
