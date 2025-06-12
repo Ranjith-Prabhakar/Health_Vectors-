@@ -1,0 +1,87 @@
+[{
+
+        "Customer ID": "279687825",
+        "age": "57",
+        "panelList": [{
+                "panel_name": "HbA1c (GLYCOSYLATED HEMOGLOBIN) BLOOD",
+                "panel_code": "B080",
+                "parameters": [{
+                        "parameterName": "HbA1c",
+                        "unit": "%",
+                        "parameterCode": "26041",
+                        "value": "7.6",
+                        "lowerRange": "0.0",
+                        "upperRange": "5.69",
+                        "displayRange": "0.0-5.69"
+                    },
+                    {
+                        "parameterName": "Estimated average glucose (eAG)",
+                        "unit": "mg/dL",
+                        "parameterCode": "36284",
+                        "value": "171",
+                        "lowerRange": "NULL",
+                        "upperRange": "NULL",
+                        "displayRange": "-"
+                    }
+                ]
+
+            },
+            {
+                "panel_name": "COMPLETE BLOOD COUNTCBC",
+                "panel_code": "Z021",
+                "parameters": [{
+                        "parameterName": "MPV (Mean Platelet Volume)",
+                        "unit": "fL",
+                        "parameterCode": "27162",
+                        "value": "12.3",
+                        "lowerRange": "6.5",
+                        "upperRange": "12",
+                        "displayRange": "6.5-12"
+                    },
+                    {
+                        "parameterName": "Platelet Count",
+                        "unit": "thou/mm3",
+                        "parameterCode": "29789",
+                        "value": "156",
+                        "lowerRange": "150",
+                        "upperRange": "450",
+                        "displayRange": "150-450"
+                    }
+                ]
+
+            }
+        ]
+    },
+    {
+
+        "Customer ID": "282945401",
+        "age": "53",
+        "panelList": [{
+                "parameters": [{
+                    "parameterName": "Immunogloublin IgG Serum",
+                    "unit": "mg/dL",
+                    "parameterCode": "26038",
+                    "value": "1065",
+                    "lowerRange": "700",
+                    "upperRange": "1600",
+                    "displayRange": "0.0-5.69"
+                }],
+                "panel_name": "IMMUNOGLOBULIN PROFILE SERUM",
+                "panel_code": "Z178"
+            },
+            {
+                "parameters": [{
+                    "parameterName": "Glucose Fasting",
+                    "unit": "mg/dL",
+                    "parameterCode": "25987",
+                    "value": "104",
+                    "lowerRange": "70",
+                    "upperRange": "100",
+                    "displayRange": "70-100"
+                }],
+                "panel_name": "GLUCOSE FASTING (F) PLASMA",
+                "panel_code": "B001"
+            }
+        ]
+    }
+]
